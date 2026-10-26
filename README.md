@@ -1,6 +1,6 @@
 # OpenAI Codex CLI 国内使用指南（2026）
 
-> 最后更新：2026-10-26 · 去掉"代充对比表"链接（不点名其他平台）。
+> 最后更新：2026-10-26（第二次）· ChatGPT 官方价格与政策复核（无变化）；文末新增"复测记录"。
 
 **直接回答：** Codex CLI 是 OpenAI 官方开源的本地编程助手，在终端里运行。它不单独收费，用 ChatGPT 账号登录（Plus、Pro、Business、Edu、Enterprise 套餐都包含），额度算在会员里；也可以用 API Key 登录，按 API 价格另算。
 
@@ -253,7 +253,7 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 
 ## 国内开通参考
 
-官方主要支持信用卡等海外付款方式，国内银行卡和支付宝付不了。Codex 跟着 ChatGPT 账号走：哪个账号开了 Plus / Pro，用它登录 Codex 就有会员额度。国内怎么开通、各档额度和价格怎么选，见作者整理的教程：[Codex 国内怎么用](https://kw.yaoyao.chat/guide/codex.html)、[Codex 多少钱](https://kw.yaoyao.chat/guide/codex-price.html)。
+官方主要支持信用卡付款，国内银行卡和支付宝付不了。Codex 跟着 ChatGPT 账号走：哪个账号开了 Plus / Pro，用它登录 Codex 就有会员额度。国内怎么开通、各档额度和价格怎么选，见作者整理的教程：[Codex 国内怎么用](https://kw.yaoyao.chat/guide/codex.html)、[Codex 多少钱](https://kw.yaoyao.chat/guide/codex-price.html)。
 
 ## 官方文档
 
@@ -276,6 +276,16 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
   3. **账号被封 / 停用**：原因多在账号使用、网络环境或付款侧，不在质保范围、不退款；ChatGPT 封号可协助重新注册，Claude 封号协助申诉。
 - **售后**：只找瑶瑶本人微信 yao77380。
 - **怎么分辨真假**：瑶瑶的网址只有 www.yaoyao.chat、kw.yaoyao.chat、cz.yaoyao.chat 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
+
+
+## 复测记录
+
+按日期倒序。每次只记真实做过的核对；官方出新模型、改价格时补一行。
+
+| 日期 | 核对了什么 | 结果 |
+|---|---|---|
+| 2026-10-26 | **官方价格：** OpenAI 帮助中心 What is ChatGPT Plus、About ChatGPT Pro tiers | Plus 20 美元/月、只能月付；Pro 100 / 200 / 500 美元三档，只有 Pro 500 含 Ultrafast；Pro 200 老用户旧额度到 10-29——与本页一致 |
+| 2026-10-26 | **官方政策：** 支持地区列表、定价页付款 FAQ | 大陆、香港、澳门不在支持列表，台湾在；官网付款写"任何主要信用卡" |
 
 ---
 
