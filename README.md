@@ -1,5 +1,7 @@
 # OpenAI Codex CLI 国内使用指南（2026）
 
+> 最后更新：2026-10-26 · 去掉"代充对比表"链接（不点名其他平台）。
+
 **直接回答：** Codex CLI 是 OpenAI 官方开源的本地编程助手，在终端里运行。它不单独收费，用 ChatGPT 账号登录（Plus、Pro、Business、Edu、Enterprise 套餐都包含），额度算在会员里；也可以用 API Key 登录，按 API 价格另算。
 
 **安装：** macOS / Linux 运行 `curl -fsSL https://chatgpt.com/codex/install.sh | sh`，也可以用 `npm install -g @openai/codex`；装好后运行 `codex`，选择 **Sign in with ChatGPT**。
@@ -267,7 +269,7 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 
 - **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 [www.yaoyao.chat](https://www.yaoyao.chat/)。
 - **能买什么**：ChatGPT Plus（一个月卡密自助开通，1～3 分钟到账；十二个月人工开通）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
-- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)、[代充怎么选（对比表）](https://kw.yaoyao.chat/guide/daichong-duibi.html)。
+- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)。
 - **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html)）：
   1. **没开通成功**：卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。
   2. **开通成功后掉会员**（订阅被撤销、账号变回 Free）：在这一期会员有效期内，凭订单号和截图联系微信，再补一个月，补到同一个账号。
