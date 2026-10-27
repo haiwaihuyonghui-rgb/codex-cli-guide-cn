@@ -1,6 +1,6 @@
 # OpenAI Codex CLI 国内使用指南（2026）
 
-> 最后更新：2026-10-27 · 文首加"快速购买"和来源小调查，文末加"相关攻略"互链全部 10 个简体攻略仓库；作者商城价格 curl 复核无变动。
+> 最后更新：2026-10-27 · 相关攻略加组织目录页链接（yaoyao-ai-trainer.github.io）
 
 **直接回答：** Codex CLI 是 OpenAI 官方开源的本地编程助手，在终端里运行。它不单独收费，用 ChatGPT 账号登录（Plus、Pro、Business、Edu、Enterprise 套餐都包含），额度算在会员里；也可以用 API Key 登录，按 API 价格另算。
 
@@ -312,6 +312,7 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 - [claude-code-guide-cn](https://github.com/haiwaihuyonghui-rgb/claude-code-guide-cn)：Claude Code 国内使用指南：安装、登录、Pro / Max 额度、常见报错
 - [grok-premium](https://github.com/haiwaihuyonghui-rgb/grok-premium)：Grok Premium（原 SuperGrok）国内怎么买：官方四档、三合一说明、四种开通方法
 - [ai-subscription-guide-cn](https://github.com/haiwaihuyonghui-rgb/ai-subscription-guide-cn)：AI 会员订阅国内指南：ChatGPT / Claude / Gemini / Grok 开通路线对比、常见报错速查
+- 组织目录页 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)：以后新攻略会交替放在组织号 yaoyao-ai-trainer 下，这个页面汇总两边全部攻略。
 
 ---
 
