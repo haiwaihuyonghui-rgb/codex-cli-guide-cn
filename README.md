@@ -1,8 +1,6 @@
-**📚 全部教程合集：[国内 ChatGPT / Claude / Grok / Gemini 充值代充教程合集 2026](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)**（本文已并入合集 [第五章 Codex CLI](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io/blob/main/docs/codex-cli.md)，16 章一个仓库，价格每周核对；网页版 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)）
-
 # OpenAI Codex CLI 国内使用指南（2026）
 
-> 最后更新：2026-10-27 · 相关攻略加组织目录页链接（yaoyao-ai-trainer.github.io）
+> 最后更新：2026-10-28 · 合集导流行移到快速购买下面，自家商城链接减到 5 个以内，开通时间统一写"平均 2 分钟"；许可证改为 CC BY-ND 4.0。
 
 **直接回答：** Codex CLI 是 OpenAI 官方开源的本地编程助手，在终端里运行。它不单独收费，用 ChatGPT 账号登录（Plus、Pro、Business、Edu、Enterprise 套餐都包含），额度算在会员里；也可以用 API Key 登录，按 API 价格另算。
 
@@ -13,15 +11,14 @@
 > 更新日期：2026-10-17。安装命令来自 openai/codex 仓库 README，登录和多账号切换来自 OpenAI 官方 Authentication、Environment variables 文档（2026-10-16 核对），额度和价格来自 OpenAI 官方定价页（2026-10-13 核对），以官方最新说明为准；本仓库非官方，与 OpenAI 没有隶属关系。
 
 <!-- 快速购买:开始（周更脚本会核对这里的价格） -->
-**快速购买**（作者自营商城 kw.yaoyao.chat，人民币，2026-10-27 核对，实际以商品页为准）：
+**快速购买**（作者自营商城 kw.yaoyao.chat，人民币，2026-10-28 核对，实际以商品页为准）：
 
-- ChatGPT Pro（100 美金档位）一个月 ¥699 → [kw.yaoyao.chat/item/17](https://kw.yaoyao.chat/item/17?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn)
-- ChatGPT Plus 一个月 ¥129 → [kw.yaoyao.chat/item/5](https://kw.yaoyao.chat/item/5?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn)
-- ChatGPT Pro（200 美金档位）一个月 ¥1399 → [kw.yaoyao.chat/item/18](https://kw.yaoyao.chat/item/18?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn)
+- ChatGPT Pro（100 美金档位）一个月 ¥699 → [kw.yaoyao.chat/item/17](https://kw.yaoyao.chat/item/17?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn)（同一个下单页可选 200 / 500 美金档位 ¥1399 / ¥3499）
+- ChatGPT Plus 一个月 ¥129 → [kw.yaoyao.chat/item/5](https://kw.yaoyao.chat/item/5?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn)（同一个下单页可选三个月 ¥387、六个月 ¥774、十二个月 ¥1548，都是 ¥129 × 月数）
 - 320万粉丝博主瑶瑶本人经营 · 开通失败可退 · 客服 09:00–24:00（北京时间）
-
-你是从哪里知道这个仓库的？点一下帮我们统计：[搜索引擎](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn&utm_content=search) · [AI 推荐](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn&utm_content=ai) · [朋友/群里发的](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn&utm_content=friend) · [GitHub 站内](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=codex-cli-guide-cn&utm_content=github)
 <!-- 快速购买:结束 -->
+
+更多教程见：[全部教程合集](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)
 
 ## 目录
 
@@ -194,8 +191,6 @@ function codex-b { $old = $env:CODEX_HOME; $env:CODEX_HOME = "$HOME\.codex-b"; t
 - 网上名为"瑶瑶Codex账号切换器"（lucky-yaoyao-codex-release）的软件**不是本仓库作者发布的，和瑶瑶没有关系**。瑶瑶没有发布过任何桌面软件或账号切换器。
 - 额度用完了换号接着用：用自己名下的不同账号（比如个人账号和公司工作区账号）是官方工具支持的正常用法；但 OpenAI 使用条款不允许绕过速率限制或其他使用限制，专门注册多个账号轮流躲额度，可能被认定违反条款，以 OpenAI 最新条款为准。
 
-更详细的图文说明和常见问题：[Codex 怎么切换多个账号？官方多账号切换方法](https://kw.yaoyao.chat/guide/codex-duozhanghao.html)
-
 ## 上手建议
 
 在 Codex 里常用的斜杠命令（以官方 CLI 文档为准）：
@@ -267,7 +262,7 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 
 ## 国内开通参考
 
-官方主要支持信用卡付款，国内银行卡和支付宝付不了。Codex 跟着 ChatGPT 账号走：哪个账号开了 Plus / Pro，用它登录 Codex 就有会员额度。国内怎么开通、各档额度和价格怎么选，见作者整理的教程：[Codex 国内怎么用](https://kw.yaoyao.chat/guide/codex.html)、[Codex 多少钱](https://kw.yaoyao.chat/guide/codex-price.html)。
+官方主要支持信用卡付款，国内银行卡和支付宝付不了。Codex 跟着 ChatGPT 账号走：哪个账号开了 Plus / Pro，用它登录 Codex 就有会员额度。国内开通 Plus / Pro 的四种方法和各自的条件、风险，见同一作者的 [gpt-chongzhi](https://github.com/haiwaihuyonghui-rgb/gpt-chongzhi)；Pro 三档怎么选，见 [chatgpt-pro-100](https://github.com/haiwaihuyonghui-rgb/chatgpt-pro-100)。
 
 ## 官方文档
 
@@ -281,15 +276,15 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 
 作者"瑶瑶ai训练师"自己经营一家 AI 会员代充商城，这里如实写明，读者可以据此判断本文立场。
 
-- **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 [www.yaoyao.chat](https://www.yaoyao.chat/)。
-- **能买什么**：ChatGPT Plus（一个月卡密自助开通，1～3 分钟到账；十二个月人工开通）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
-- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)。
+- **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 `www.yaoyao.chat`。
+- **能买什么**：ChatGPT Plus（一个月卡密自助开通，十二个月付款后在订单页填开通信息，都是平均 2 分钟到账）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
+- **价格**：以商城页面为准。各档价格和官方价对比见同一作者的 [chatgpt-jiage-duibi](https://github.com/haiwaihuyonghui-rgb/chatgpt-jiage-duibi)。
 - **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html)）：
   1. **没开通成功**：卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。
   2. **开通成功后掉会员**（订阅被撤销、账号变回 Free）：在这一期会员有效期内，凭订单号和截图联系微信，再补一个月，补到同一个账号。
   3. **账号被封 / 停用**：原因多在账号使用、网络环境或付款侧，不在质保范围、不退款；ChatGPT 封号可协助重新注册，Claude 封号协助申诉。
 - **售后**：只找瑶瑶本人微信 yao77380。
-- **怎么分辨真假**：瑶瑶的网址只有 www.yaoyao.chat、kw.yaoyao.chat、cz.yaoyao.chat 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
+- **怎么分辨真假**：瑶瑶的网址只有 `www.yaoyao.chat`、`kw.yaoyao.chat`、`cz.yaoyao.chat` 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
 
 ## 复测记录
 
@@ -297,6 +292,7 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 
 | 日期 | 核对了什么 | 结果 |
 |---|---|---|
+| 2026-10-28 | **价格：** 按作者商城事实卡 yy-facts.json（每 15 分钟从商城数据库生成）核对全部商品 | 与本页"快速购买"一致，无变动；开通时间统一写"平均 2 分钟" |
 | 2026-10-27 | **价格：** curl 作者商城商品页 item/5、7、10、11、12、13、14、17、18、19 和 llms.txt | 与本页"快速购买"一致（Pro 100 美金档位 ¥699、Plus ¥129、Pro 200 美金档位 ¥1399），十个商品均无变动 |
 | 2026-10-26 | **官方价格：** OpenAI 帮助中心 What is ChatGPT Plus、About ChatGPT Pro tiers | Plus 20 美元/月、只能月付；Pro 100 / 200 / 500 美元三档，只有 Pro 500 含 Ultrafast；Pro 200 老用户旧额度到 10-29——与本页一致 |
 | 2026-10-26 | **官方政策：** 支持地区列表、定价页付款 FAQ | 大陆、香港、澳门不在支持列表，台湾在；官网付款写"任何主要信用卡" |
@@ -314,8 +310,8 @@ Plus 和 Pro 用到上限后，可以购买额外的 ChatGPT credits（点数）
 - [claude-code-guide-cn](https://github.com/haiwaihuyonghui-rgb/claude-code-guide-cn)：Claude Code 国内使用指南：安装、登录、Pro / Max 额度、常见报错
 - [grok-premium](https://github.com/haiwaihuyonghui-rgb/grok-premium)：Grok Premium（原 SuperGrok）国内怎么买：官方四档、三合一说明、四种开通方法
 - [ai-subscription-guide-cn](https://github.com/haiwaihuyonghui-rgb/ai-subscription-guide-cn)：AI 会员订阅国内指南：ChatGPT / Claude / Gemini / Grok 开通路线对比、常见报错速查
-- 组织目录页 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)：以后新攻略会交替放在组织号 yaoyao-ai-trainer 下，这个页面汇总两边全部攻略。
+- [全部教程合集](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)：组织号 yaoyao-ai-trainer 下的合集目录，每章是摘要，正文以各仓库为准。
 
 ---
 
-整理：瑶瑶ai训练师（AI 内容创作者），[官网](https://www.yaoyao.chat/)。本仓库为非官方教程整理，与 OpenAI 没有隶属关系，品牌名仅用于说明。内容采用 CC-BY-4.0 许可，转载请注明出处。
+整理：瑶瑶ai训练师（AI 内容创作者）。本仓库为非官方教程整理，与 OpenAI 没有隶属关系，品牌名仅用于说明。自 2026-10-28 起的版本采用 [CC BY-ND 4.0](LICENSE) 许可：可以原样转载，须署名"瑶瑶ai训练师"并附原文链接 https://github.com/haiwaihuyonghui-rgb/codex-cli-guide-cn ；不许改编、改写后发布。
